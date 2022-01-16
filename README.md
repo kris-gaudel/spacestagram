@@ -6,7 +6,7 @@ Spacestagram is Instagram for space! This project was built using ReactJS, Style
 
 - Like Photos 
 - Click on the "More Info" button to get a description of the photo
-- Animated like and refresh buttons, animation on the photo itself
+- Animated like and refresh buttons, animation on the photo itself, animated background (thanks to TSParticles)
 - Shareable links found within each image's description modal
 - Hosted on Netlify
 - Responsive design
