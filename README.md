@@ -2,6 +2,9 @@
 
 Spacestagram is Instagram for space! This project was built using ReactJS, Styled Components, TSParticles and NASA's APOD API. 
 
+This site is hosted at: [https://kris-gaudel-spacestagram.netlify.app/]
+
+
 # Key Features
 
 - Like Photos 
