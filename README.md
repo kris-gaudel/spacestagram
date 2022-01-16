@@ -1,3 +1,21 @@
+# Project Description
+
+Spacestagram is Instagram for space! This project was built using ReactJS, Styled Components, TSParticles and NASA's APOD API. 
+
+# Key Features
+
+- Like Photos 
+- Click on the "More Info" button to get a description of the photo
+- Animated like and refresh buttons, animation on the photo itself
+- Shareable links found within each image's description modal
+- Hosted on Netlify
+- Responsive design
+
+# Next Steps
+- Save liked photos so the user can view them later (Redux?)
+- Search function to search for photos
+- Re-write the app with Typescript for type-safety and easier management as the app scales
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
