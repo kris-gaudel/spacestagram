@@ -18,7 +18,7 @@ const StyledHeader = styled.h1`
   margin: auto;
 
   @media (max-width: 768px) {
-      font-size: 30px;
+      font-size: 40px;
     }
 `;
 
@@ -28,18 +28,21 @@ const Wrapper = styled.div`
   top: 5%;
   flex-direction: column;
   width: 100vw;
+  max-width: 100%;
   height: 100vh;
   align-items: center;
   overflow-y: scroll;
+  overflow-x: hidden;
 `;
 
 const ParticleWrapper = styled.div`
   position: fixed;
   width: 100%;
+  overflow-x: hidden;
 `;
 
 const CardWrapper = styled.div`
-  width: 100vw;
+  width: 70vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -69,6 +72,10 @@ const Loading = styled.img`
   }
 `;
 
+const AppWrapper = styled.div`
+  position: relative;
+`;
+
 const App = () => {
 
   const [images, setImages] = useState([]);
@@ -94,7 +101,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="App">
+    <AppWrapper>
       <ParticleWrapper>
         <Particles 
           width="100wh"
@@ -133,7 +140,7 @@ const App = () => {
           onClick={handleGetTracks}
         />
       </Wrapper>
-    </div>
+    </AppWrapper>
   );
 }
 

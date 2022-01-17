@@ -44,7 +44,7 @@ const StyledImage = styled.img`
 const BottomContainer = styled.div`
     align-self: center;
     display: flex;
-    width: max(25vw, 250px);
+    width: max(35vw, 250px);
     justify-content: space-between;
     align-items: center;
 `;
@@ -69,7 +69,7 @@ const Date = styled.h1`
     font-size: 30px;
 
     @media (max-width: 768px) {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     text-align: left;
@@ -80,6 +80,9 @@ const Date = styled.h1`
 const StyledLike = styled.img`
     height: 60px;
     width: 60px;
+
+    margin-left: 15px;
+    margin-right: 15px;
 
     @media (max-width: 768px) {
         height: 50px;
@@ -111,13 +114,12 @@ const InfoButton = styled.button`
     color: white;
     font-size: 30px;
     @media (max-width: 768px) {
-        font-size: 15px;
+        font-size: 20px;
     }
     background-color: #2D3585;
     box-shadow: 0 0 20px rgba(204, 204, 204, 0.596);
     border-radius: 8px;
     border: 1px solid white;
-    max-height: 70px;
     margin: 15px;
 `;
 
