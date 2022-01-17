@@ -30,7 +30,7 @@ const StyledImage = styled.img`
     }
 
     box-shadow: 0 0 20px rgba(204, 204, 204, 0.596);
-    border: 5px solid white;
+    border: 3px solid white;
     border-radius: 5%;
     background-size: cover;
     transition: transform 0.5s ease-in-out, border 0.5s ease-in-out,
