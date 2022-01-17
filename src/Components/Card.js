@@ -44,7 +44,8 @@ const StyledImage = styled.img`
 const BottomContainer = styled.div`
     align-self: center;
     display: flex;
-    width: max(35vw, 250px);
+    width: max(35vw, 300px);
+    min-width: 300px;;
     justify-content: space-between;
     align-items: center;
 `;
@@ -170,10 +171,12 @@ const Card = ({ title, date, url, description, copyright }) => {
                 </ImageContainer>
 
                 <BottomContainer>
+
                     <DateTitleContainer>
                         <Title>{title}</Title>
                         <Date>{date}</Date>
                     </DateTitleContainer>
+
                     <StyledLike
                         src={liked ? heartRed : heartGrey}
                         alt="like button"
@@ -193,6 +196,7 @@ const Card = ({ title, date, url, description, copyright }) => {
                     </ReactModal>
 
                 </BottomContainer>
+                
             </CardContainer>
         </>
     );

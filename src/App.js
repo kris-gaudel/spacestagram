@@ -102,6 +102,7 @@ const App = () => {
 
   return (
     <AppWrapper>
+
       <ParticleWrapper>
         <Particles 
           width="100wh"
@@ -134,12 +135,15 @@ const App = () => {
           )}
           {loading && <LoadingText>Loading...</LoadingText>}
         </CardWrapper>
+
         <Loading
           src={refresh}
           alt="load more"
           onClick={handleGetTracks}
         />
+
       </Wrapper>
+      
     </AppWrapper>
   );
 }
