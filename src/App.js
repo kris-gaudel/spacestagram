@@ -19,7 +19,11 @@ const StyledHeader = styled.h1`
 
   @media (max-width: 768px) {
       font-size: 40px;
-    }
+  }
+
+  @media (max-width: 400px) {
+      font-size: 35px;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -143,7 +147,7 @@ const App = () => {
         />
 
       </Wrapper>
-      
+
     </AppWrapper>
   );
 }
