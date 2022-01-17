@@ -91,8 +91,7 @@ const StyledLike = styled.img`
     }
 
     transition: all 0.4s;
-    margin-left: 5px;
-
+    
     &:hover {
     transform: scale(1.1);
     }
@@ -196,7 +195,7 @@ const Card = ({ title, date, url, description, copyright }) => {
                     </ReactModal>
 
                 </BottomContainer>
-                
+
             </CardContainer>
         </>
     );
